@@ -1,4 +1,4 @@
-const initialTodos = JSON.parse(localStorage.getItem('tasks'));
+const initialTodos = JSON.parse(localStorage.getItem('tasks')) || [];
 
 
 const todoReducer = (state, action) => {
